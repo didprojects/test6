@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <title>My Wedsite</title>
+</head>
+<body>
+    <h2 id="title">My Website</h2>
+    <p>This is a website for people to learn English, hope your will like it!</p>
+    <h3 class="subtitle">About Me</h3>
+    <img src="../eg.jpeg" alt="image" width="500px" height="380px" id="about_us_image"/>
+    <p>Learning English is about communication, we need more input than output in
+        the beginner stage, and then we can immerse ourselves in an English environment.
+    </p>
+    <ul>
+        <li>Listning</li>
+        <li>Speaking</li>
+        <li>Writing</li>
+        <li>Reading</li>
+            <ol>
+                <li>My ordered list.</li>
+            </ol>
+        
+
+    </ul>
+    <ul>
+        <li>Test Line</li>
+    </ul>
+
+    <h3 class="subtitle">Service</h3>
+    <br>
+    <div class="service-image"></div>
+    <!-- <img class="service-image"  src="../eg.jpeg" alt="service image" /> -->
+    <table border="1">
+        <tr>
+            <td>2.Jan</td>
+            <td>3.Jan</td>
+            <td>4.Jan</td>
+            <td>5.Jan</td>
+        </tr>
+        <tr>
+            <td>Listning</td>
+            <td>Speaking</td>
+            <td>Writing</td>
+            <td>Reading</td>
+        </tr>
+    </table>
+
+    <br>
+    <a href="http://www.google.com" id="google-link">Click here to go to google</a>
+
+    <div class="container">
+        <!-- <div class="container-item" style="order: 4; flex-grow:1;flex-shrink:1;flex-basis: 100px;">A</div> -->
+        <div class="container-item" style="order: 4; flex:1 1 100px; align-self: center;">A</div>
+        <div class="container-item" style="order: 3; flex:1 3 100px; align-self: flex-end;">B</div>
+        <div class="container-item" style="order: 5; flex:1 1 100px; align-self: flex-start;">C</div>
+        <div class="container-item" style="order: 1; flex:1 1 100px; align-self: flex-start;">D</div>
+        <div class="container-item" style="order: 2; flex:1 1 100px; align-self: center;">E</div>
+    </div>
+
+    <div class="grid-container">
+        <div class="item grid-item1" style="background: rgb(255,150,150);">1</div>
+        <div class="item grid-item2" style="background: rgb(170,255,140);">2</div>
+        <div class="item grid-item3" style="background: rgb(222,132,255);">3</div>
+        <div class="item grid-item4" style="background: rgb(255,207,119);">4</div>
+        <!-- <div class="item grid-item5" style="background: rgb(140,210,255);">5</div> -->
+        <!-- <div class="item grid-item6" style="background: rgb(0,100,255);">6</div> -->
+    </div>
+    <!-- <div class="container-test">
+        <div class="container-item">A</div>
+        <div class="container-item">B</div>
+        <p>Hello FlexBox!</p>
+        <a href="http://www.google.com">Click me!</a>
+        <p>hhhhh</p>
+        <table>
+            <tr>
+                <th>name</th><th>age</th><th>gender</th>
+            </tr>
+            <tr>
+                <td>Cassie</td><td>30</td><td>F</td>
+            </tr>
+        </table>
+    </div> -->
+
+    <h3 class="subtitle">Contact Us</h3>
+    <form action="">
+        <label for="name">Your Name</label>
+        <input type="text" id="name" name="name" placeholder="name"/>
+        <br>
+        <label for="email">Your Email</label>
+        <input type="email" id="email"  placeholder="email">
+        <br>
+        <textarea name="address" id="address"></textarea>
+        <button type="submit">Submit</button>
+        <br>
+
+        <button type="button" onclick="document.getElementById('clickbtn').innerHTML=Date()">Click me to show date!</button>
+        <p id="clickbtn"></p>
+
+    </form>
+
+    <script src="../javascript/example.js"></script>
+</body>
+</html>
